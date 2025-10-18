@@ -90,3 +90,52 @@ your_project/
         ├── image_5.png
         ├── button_1.png
         └── button_2.png
+
+graph TB
+A[Launch Application] --> B[Input User Prompt]
+B --> C{Parse Command}
+C -->|STAAD Command| D[Execute in STAAD via Controller]
+C -->|AI Query| E[Send to AI Provider]
+D --> F[Display STAAD Response]
+E --> F[Display AI Response]
+F --> G[Generate Reports / Export Drawings]
+G --> H[Start New Query or Exit]
+
+🔧 Prerequisites
+Python 3.8+
+STAAD.Pro running with an open model (for command execution)
+Internet connection (for AI responses)
+Libraries:
+CopyRun
+pip install g4f reportlab ezdxf
+tkinter is included with Python.
+
+📖 Getting Started
+Install dependencies:
+CopyRun
+pip install g4f reportlab ezdxf
+Download or clone this repo.
+Run:
+CopyRun
+python main.py
+Use the GUI:
+Type questions or commands.
+Click buttons to generate reports or export drawings.
+Clear conversation and optionally prompt for ChatGPT login.
+🎯 Usage Tips
+Ask about node coordinates, beam lengths, or create new models.
+Use natural language: "Get node 15 coords", "Create a new file called mymodel.std"
+To get detailed reinforcement or reports, use the provided buttons.
+If STAAD is not connected, commands will notify you.
+⚠️ Troubleshooting
+Missing libraries: Install with pip.
+STAAD not detected: Ensure STAAD is open, and correct version.
+DXF export fails: Install ezdxf (pip install ezdxf)
+AI responses slow or fail: Check internet connection, retry, or login to ChatGPT via browser.
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+🎉 Acknowledgments
+Built with Python, tkinter, g4f, reportlab, ezdxf
+Uses open standards for AI and STAAD automation
+Inspired by structural engineering workflows and automation
