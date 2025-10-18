@@ -1,0 +1,12 @@
+# === Core Dependencies ===
+g4f[all]           # Free ChatGPT client with multiple providers
+pillow             # Image handling for Tkinter PhotoImage
+pywin32            # COM automation for STAAD.Pro (OpenSTAAD API)
+requests           # Sometimes needed by g4f providers
+
+# === GUI and System ===
+tkinter            # Usually built-in, include for completeness
+typing-extensions  # Ensures forward compatibility for type hints
+
+# === Optional (Development / Packaging) ===
+pyinstaller        # For building a standalone .exe
