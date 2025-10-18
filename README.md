@@ -6,15 +6,15 @@
 
 *Intelligent Python-based GUI tool for structural engineers to interact with STAAD and AI models*
 
-*Developed by* **[Your Name / Your Company]**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/yourprofile)
+*Developed by* **Engr. Lowrence Scott D. Gutierrez**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/lsdg)
 
 ---
 
 ### 📊 Project Stats
 
-![GitHub Views](https://komarev.com/ghpvc/?username=yourusername&label=Repository%20Views&color=0e75b6&style=flat)  
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/yourrepo?style=flat&color=yellow)  
+![GitHub Views](https://komarev.com/ghpvc/?username=SC0L0W&label=Repository%20Views&color=0e75b6&style=flat)  
+![GitHub Stars](https://img.shields.io/github/stars/SC0L0W/STAAD_GPT_v25.1?style=flat&color=yellow)  
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat&logo=python)  
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
