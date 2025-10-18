@@ -90,6 +90,7 @@ your_project/
         ├── image_5.png
         ├── button_1.png
         └── button_2.png
+---
 
 graph TB
 A[Launch Application] --> B[Input User Prompt]
