@@ -12,6 +12,9 @@
 
 ---
 
+<img width="495" height="752" alt="image" src="https://github.com/user-attachments/assets/64a620fa-7e95-461e-8264-15a5adcaaae3" />
+
+
 ## 🌟 Features
 
 ### 🎯 Core Capabilities
